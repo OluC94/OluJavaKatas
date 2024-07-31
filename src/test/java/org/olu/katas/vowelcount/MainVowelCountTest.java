@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainVowelCountTest {
 
     @Test
-    void vowelCount() {
+    void returnsZeroForEmptyString() {
+        assertEquals(0, MainVowelCount.vowelCount(""));
     }
 }
